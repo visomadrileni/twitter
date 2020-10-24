@@ -1,0 +1,111 @@
+.content{
+    position: relative;
+    height:100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+
+.content .part1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 55%;
+    background-image: url('../../assets/background.png');
+    background-size: cover;
+}
+
+.part1 p {
+    position: relative;
+    top: 200px;
+    left: 150px;
+    color: white;
+    font-size: 18px;
+    vertical-align: 150%;
+}
+
+.content .part2{
+    position: absolute;
+    float: right;
+    height: 100%;
+    left: 640px;
+}
+
+.part2 input[type="text"]{
+    top: 90px;
+    height: 50px;
+    border: none;
+    margin-right: 10px;
+    border-bottom: 2px solid #349ae3;
+    background: #d8e6f0;
+}
+
+.part2 input[type="password"]{
+    top: 90px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #349ae3;
+    background: #d8e6f0;
+}
+
+.part2 input[type="submit"]{
+    top: 90px;
+    height: 40px;
+    width: 80px;
+    border-radius: 25px;
+    border: 1px solid #349ae3;
+    background: #fff;
+}
+
+.part2 a {
+    position: relative;
+    left: 180px;
+    color:#349ae3;
+}
+
+.part2 span,h2{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    font-size: 30px;
+}
+
+.part2 .register{
+    position: relative;
+    top: 160px;
+    left: 80px;
+}
+
+.register button{
+    height: 25px;
+    width: 350px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #332aff;
+    background: #fff;
+}
+
+ .register button:nth-child(2){
+    background-color: #3364ff;
+}
+
+.content nav {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    font-size: 13px;
+    color: rgb(101, 119, 134);
+}
+
+nav span {
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(101, 119, 134);
+}
